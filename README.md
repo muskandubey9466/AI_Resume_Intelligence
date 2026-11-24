@@ -1,17 +1,18 @@
-# AI_Resume_Intelligence
+
 AI_Resume_Intelligence/
 │
 ├── app.py
-├── requirements.txt
 ├── config.py
-├── gemini_utils.py
+├── gemini_service.py
+├── resume_parser.py
 ├── resume_generator.py
-├── resume_screening.py
-├── pdf_utils.py
-├── analytics.py
+├── screening.py
+├── requirements.txt
+├── .gitignore
 │
-├── assets/
-│   └── logo.png
+├── .streamlit/
+│   └── secrets.toml
 │
-└── .streamlit/
-    └── secrets.toml
+└── generated_resumes/
+#pip install -r requirements.txt
+#streamlit run app.py
